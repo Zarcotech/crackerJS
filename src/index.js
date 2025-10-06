@@ -19,6 +19,10 @@ app.get('/testing', (req, res) => {
     res.sendFile(join(__dirname, '../public/base/main/output.html'));
 })
 
+app.get('/browser', (req, res) => {
+    res.sendFile(join(__dirname, '../public/base/main/browser.html'));
+})
+
 const port = process.env.PORT || 3000;
 
 app.listen(3000, () => {
