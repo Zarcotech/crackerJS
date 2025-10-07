@@ -13,7 +13,9 @@ const instance = new Cracker({
 
 });
 
-instance.runBrowser();
+instance.createBrowser({
+  bg
+});
 
 const generatedHtml = dom.serialize();
 
