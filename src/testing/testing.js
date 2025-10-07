@@ -9,12 +9,10 @@ const browserDom = new JSDOM('<!-- From aluraOS (Alura Network) --><!DOCTYPE htm
 global.document = dom.window.document;
 global.window = dom.window;
 
-const instance = new Cracker({
+const instance = new Cracker();
 
-});
-
-instance.createBrowser({
-  bg
+instance.createOS({
+    bg: 'blue'
 });
 
 const generatedHtml = dom.serialize();
