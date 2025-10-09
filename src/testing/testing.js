@@ -1,4 +1,4 @@
-import Cracker from "../../public/base/main/cracker.js";
+import Cracker from "../../public/base/main/pepper.js";
 
 const instance = new Cracker();
 

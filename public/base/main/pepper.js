@@ -3,6 +3,7 @@
 Cracker JS
 
 Author: zarcotech
+Owned by: Icicle Network (2025 | Owner: zarcotech)
 License: MIT
 
 Credits:
